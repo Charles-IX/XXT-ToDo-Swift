@@ -31,3 +31,4 @@ xcuserdata/
 # macOS system files
 .DS_Store
 
+xxt-swift/Sources/XXTTest/*.html
