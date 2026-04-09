@@ -14,6 +14,18 @@
 		561D55982F61374200E32591 /* HomeworkToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D55972F61374200E32591 /* HomeworkToDoTests.swift */; };
 		561D55A22F61374200E32591 /* HomeworkToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D55A12F61374200E32591 /* HomeworkToDoUITests.swift */; };
 		561D55A42F61374200E32591 /* HomeworkToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D55A32F61374200E32591 /* HomeworkToDoUITestsLaunchTests.swift */; };
+		561D55B72F61389200E32591 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561D55B62F61389200E32591 /* WidgetKit.framework */; };
+		561D55B92F61389200E32591 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561D55B82F61389200E32591 /* SwiftUI.framework */; };
+		561D55BC2F61389200E32591 /* HomeworkWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D55BB2F61389200E32591 /* HomeworkWidgetBundle.swift */; };
+		561D55BE2F61389200E32591 /* HomeworkWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D55BD2F61389200E32591 /* HomeworkWidget.swift */; };
+		561D55C02F61389200E32591 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D55BF2F61389200E32591 /* AppIntent.swift */; };
+		561D55C22F61389300E32591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561D55C12F61389300E32591 /* Assets.xcassets */; };
+		561D55C72F61389300E32591 /* HomeworkWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 561D55B42F61389200E32591 /* HomeworkWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		561D55CE2F613E3100E32591 /* XXTCore in Frameworks */ = {isa = PBXBuildFile; productRef = 561D55CD2F613E3100E32591 /* XXTCore */; };
+		569DB5D52F62A828009073A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561D55892F61374200E32591 /* Assets.xcassets */; };
+		569DB5D62F62A829009073A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561D55892F61374200E32591 /* Assets.xcassets */; };
+		569DB5D72F62A829009073A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561D55892F61374200E32591 /* Assets.xcassets */; };
+		56C07ADF2F616FD6005CAD80 /* XXTCore in Frameworks */ = {isa = PBXBuildFile; productRef = 561D55CD2F613E3100E32591 /* XXTCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +43,28 @@
 			remoteGlobalIDString = 561D55812F61374000E32591;
 			remoteInfo = HomeworkToDo;
 		};
+		561D55C52F61389300E32591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561D557A2F61374000E32591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561D55B32F61389200E32591;
+			remoteInfo = HomeworkWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		561D55CB2F61389300E32591 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				561D55C72F61389300E32591 /* HomeworkWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		561D55822F61374000E32591 /* HomeworkToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +78,17 @@
 		561D559D2F61374200E32591 /* HomeworkToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		561D55A12F61374200E32591 /* HomeworkToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkToDoUITests.swift; sourceTree = "<group>"; };
 		561D55A32F61374200E32591 /* HomeworkToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		561D55B42F61389200E32591 /* HomeworkWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HomeworkWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		561D55B62F61389200E32591 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
+		561D55B82F61389200E32591 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
+		561D55BB2F61389200E32591 /* HomeworkWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkWidgetBundle.swift; sourceTree = "<group>"; };
+		561D55BD2F61389200E32591 /* HomeworkWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkWidget.swift; sourceTree = "<group>"; };
+		561D55BF2F61389200E32591 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		561D55C12F61389300E32591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561D55C32F61389300E32591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561D55C42F61389300E32591 /* HomeworkWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeworkWidget.entitlements; sourceTree = "<group>"; };
+		561D55CC2F6139C100E32591 /* xxt-swift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "xxt-swift"; sourceTree = SOURCE_ROOT; };
+		568F17432F6172C6008C1484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C07ADF2F616FD6005CAD80 /* XXTCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +114,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		561D55B12F61389200E32591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561D55CE2F613E3100E32591 /* XXTCore in Frameworks */,
+				561D55B92F61389200E32591 /* SwiftUI.framework in Frameworks */,
+				561D55B72F61389200E32591 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +133,8 @@
 				561D55842F61374000E32591 /* HomeworkToDo */,
 				561D55962F61374200E32591 /* HomeworkToDoTests */,
 				561D55A02F61374200E32591 /* HomeworkToDoUITests */,
+				561D55BA2F61389200E32591 /* HomeworkWidget */,
+				561D55B52F61389200E32591 /* Frameworks */,
 				561D55832F61374000E32591 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +145,7 @@
 				561D55822F61374000E32591 /* HomeworkToDo.app */,
 				561D55932F61374200E32591 /* HomeworkToDoTests.xctest */,
 				561D559D2F61374200E32591 /* HomeworkToDoUITests.xctest */,
+				561D55B42F61389200E32591 /* HomeworkWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +153,7 @@
 		561D55842F61374000E32591 /* HomeworkToDo */ = {
 			isa = PBXGroup;
 			children = (
+				568F17432F6172C6008C1484 /* Info.plist */,
 				561D55852F61374000E32591 /* HomeworkToDoApp.swift */,
 				561D55872F61374000E32591 /* ContentView.swift */,
 				561D55892F61374200E32591 /* Assets.xcassets */,
@@ -129,6 +188,29 @@
 			path = HomeworkToDoUITests;
 			sourceTree = "<group>";
 		};
+		561D55B52F61389200E32591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				561D55CC2F6139C100E32591 /* xxt-swift */,
+				561D55B62F61389200E32591 /* WidgetKit.framework */,
+				561D55B82F61389200E32591 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		561D55BA2F61389200E32591 /* HomeworkWidget */ = {
+			isa = PBXGroup;
+			children = (
+				561D55BB2F61389200E32591 /* HomeworkWidgetBundle.swift */,
+				561D55BD2F61389200E32591 /* HomeworkWidget.swift */,
+				561D55BF2F61389200E32591 /* AppIntent.swift */,
+				561D55C12F61389300E32591 /* Assets.xcassets */,
+				561D55C32F61389300E32591 /* Info.plist */,
+				561D55C42F61389300E32591 /* HomeworkWidget.entitlements */,
+			);
+			path = HomeworkWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,12 +221,17 @@
 				561D557E2F61374000E32591 /* Sources */,
 				561D557F2F61374000E32591 /* Frameworks */,
 				561D55802F61374000E32591 /* Resources */,
+				561D55CB2F61389300E32591 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				561D55C62F61389300E32591 /* PBXTargetDependency */,
 			);
 			name = HomeworkToDo;
+			packageProductDependencies = (
+				561D55CD2F613E3100E32591 /* XXTCore */,
+			);
 			productName = HomeworkToDo;
 			productReference = 561D55822F61374000E32591 /* HomeworkToDo.app */;
 			productType = "com.apple.product-type.application";
@@ -185,6 +272,26 @@
 			productReference = 561D559D2F61374200E32591 /* HomeworkToDoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		561D55B32F61389200E32591 /* HomeworkWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561D55C82F61389300E32591 /* Build configuration list for PBXNativeTarget "HomeworkWidgetExtension" */;
+			buildPhases = (
+				561D55B02F61389200E32591 /* Sources */,
+				561D55B12F61389200E32591 /* Frameworks */,
+				561D55B22F61389200E32591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeworkWidgetExtension;
+			packageProductDependencies = (
+				561D55CD2F613E3100E32591 /* XXTCore */,
+			);
+			productName = HomeworkWidgetExtension;
+			productReference = 561D55B42F61389200E32591 /* HomeworkWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +313,9 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 561D55812F61374000E32591;
 					};
+					561D55B32F61389200E32591 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 				};
 			};
 			buildConfigurationList = 561D557D2F61374000E32591 /* Build configuration list for PBXProject "HomeworkToDo" */;
@@ -224,6 +334,7 @@
 				561D55812F61374000E32591 /* HomeworkToDo */,
 				561D55922F61374200E32591 /* HomeworkToDoTests */,
 				561D559C2F61374200E32591 /* HomeworkToDoUITests */,
+				561D55B32F61389200E32591 /* HomeworkWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569DB5D52F62A828009073A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +361,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569DB5D62F62A829009073A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561D55B22F61389200E32591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569DB5D72F62A829009073A5 /* Assets.xcassets in Resources */,
+				561D55C22F61389300E32591 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +403,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		561D55B02F61389200E32591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561D55BC2F61389200E32591 /* HomeworkWidgetBundle.swift in Sources */,
+				561D55BE2F61389200E32591 /* HomeworkWidget.swift in Sources */,
+				561D55C02F61389200E32591 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +425,11 @@
 			isa = PBXTargetDependency;
 			target = 561D55812F61374000E32591 /* HomeworkToDo */;
 			targetProxy = 561D559E2F61374200E32591 /* PBXContainerItemProxy */;
+		};
+		561D55C62F61389300E32591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561D55B32F61389200E32591 /* HomeworkWidgetExtension */;
+			targetProxy = 561D55C52F61389300E32591 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -349,10 +486,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -404,9 +544,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -414,14 +557,18 @@
 		561D55A82F61374200E32591 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = HomeworkToDo/HomeworkToDo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeworkToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = WCRM9X6QNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeworkToDo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -439,6 +586,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "charles-ix.HomeworkToDo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -450,14 +598,18 @@
 		561D55A92F61374200E32591 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = HomeworkToDo/HomeworkToDo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeworkToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = WCRM9X6QNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeworkToDo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -475,6 +627,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "charles-ix.HomeworkToDo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -490,6 +643,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRM9X6QNL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -512,6 +666,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRM9X6QNL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -533,6 +688,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRM9X6QNL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -554,6 +710,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRM9X6QNL;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -566,6 +723,86 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = HomeworkToDo;
+			};
+			name = Release;
+		};
+		561D55C92F61389300E32591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HomeworkWidget/HomeworkWidget.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRM9X6QNL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeworkWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeworkWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "charles-ix.HomeworkToDo.HomeworkWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561D55CA2F61389300E32591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HomeworkWidget/HomeworkWidget.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WCRM9X6QNL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeworkWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeworkWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "charles-ix.HomeworkToDo.HomeworkWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -608,7 +845,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		561D55C82F61389300E32591 /* Build configuration list for PBXNativeTarget "HomeworkWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561D55C92F61389300E32591 /* Debug */,
+				561D55CA2F61389300E32591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		561D55CD2F613E3100E32591 /* XXTCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = XXTCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 561D557A2F61374000E32591 /* Project object */;
 }
